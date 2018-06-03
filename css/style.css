@@ -1,0 +1,99 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+
+    font-weight: bold;
+    font-family:sans-serif;
+
+}
+
+body {
+
+    background-color: #37383a;
+    color: white;
+
+}
+
+header, footer {
+
+    background-color: #1d1e1f;
+    box-shadow: 0 1px 15px -5px black;
+    overflow: hidden;
+
+}
+
+header p, header a, header img {
+
+    display: block;
+    float: left;
+
+}
+
+header a, header p, footer p {
+
+    padding: 4px 5px 4px 5px;
+
+}
+
+header img {
+
+    padding: 3px 0 3px 3px;
+
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    background-color: #27292a;
+
+}
+
+#active {
+
+    background-color: #2e3031;
+
+}
+
+.card {
+
+    background-color: #1d1e1f;
+    padding: 10px;
+    box-shadow: 0 1px 15px -5px black;
+    margin: 10px;
+
+}
+
+.card-title {
+
+    background-color: #1d1e1f;
+    padding: 10px;
+    box-shadow: 0 1px 15px -5px black;
+    margin: 10px 16.5% 10px 16.5%;
+    text-align: center;
+
+}
+
+::selection {
+
+    color: black;
+    background-color: white;
+
+}
+
+::-moz-selection {
+
+    color: #1d1e1f;
+    background-color: white;
+
+}
