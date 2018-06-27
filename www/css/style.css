@@ -1,21 +1,7 @@
-* {
-
-    margin: 0;
-    padding: 0;
-
-}
-
 html {
 
     font-weight: bold;
     font-family:sans-serif;
-
-}
-
-body {
-
-    background-color: #37383a;
-    color: white;
 
 }
 
@@ -81,19 +67,5 @@ a:hover {
     box-shadow: 0 1px 15px -5px black;
     margin: 10px 16.5% 10px 16.5%;
     text-align: center;
-
-}
-
-::selection {
-
-    color: black;
-    background-color: white;
-
-}
-
-::-moz-selection {
-
-    color: #1d1e1f;
-    background-color: white;
 
 }

@@ -1,0 +1,27 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    color: white;
+    background-color: #37383a;
+
+}
+
+::selection {
+
+    color: black;
+    background-color: white;
+
+}
+
+::-moz-selection {
+
+    color: #1d1e1f;
+    background-color: white;
+
+}

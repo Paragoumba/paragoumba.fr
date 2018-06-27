@@ -1,0 +1,37 @@
+ul {
+
+    list-style: none;
+    -moz-columns: 2;
+
+}
+
+li {
+
+    cursor: pointer;
+
+}
+
+a div p {
+
+    text-decoration: none;
+
+}
+
+canvas {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.h {
+
+    color: #00000000;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currentlysupported by Chrome and Opera */
+
+}
