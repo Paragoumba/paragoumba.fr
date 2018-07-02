@@ -1,34 +1,44 @@
-html {
+/*html {
 
     font-weight: bold;
-    font-family:sans-serif;
+    font-family: sans-serif;
+
+}*/
+
+header *.card {
+
+    border-top: none;
 
 }
 
-header, footer {
+header *.card:first-child {
 
-    background-color: #1d1e1f;
-    box-shadow: 0 1px 15px -5px black;
-    overflow: hidden;
+    border-left: none;
 
 }
 
-header p, header a, header img {
+header *.card:last-child {
 
-    display: block;
-    float: left;
-
-}
-
-header a, header p, footer p {
-
-    padding: 4px 5px 4px 5px;
+    border-right: none;
 
 }
 
-header img {
+header *.card {
 
-    padding: 3px 0 3px 3px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+}
+
+header *.card:first-child {
+
+    border-bottom-left-radius: 0;
+
+}
+
+header *.card:last-child {
+
+    border-bottom-right-radius: 0;
 
 }
 
@@ -39,33 +49,8 @@ a {
 
 }
 
-a:hover {
-
-    background-color: #27292a;
-
-}
-
 #active {
 
     background-color: #2e3031;
-
-}
-
-.card {
-
-    background-color: #1d1e1f;
-    padding: 10px;
-    box-shadow: 0 1px 15px -5px black;
-    margin: 10px;
-
-}
-
-.card-title {
-
-    background-color: #1d1e1f;
-    padding: 10px;
-    box-shadow: 0 1px 15px -5px black;
-    margin: 10px 16.5% 10px 16.5%;
-    text-align: center;
 
 }

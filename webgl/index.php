@@ -8,7 +8,7 @@
 <html>
     <head>
         <title>WebGL Crash Test Platform - Paragoumba.fr</title>
-        <link rel="icon" href="https://paragoumba.fr/res/icon.gif">
+        <link rel="icon" href="../icon.gif">
         <link rel="stylesheet" href="../bootstrap.min.css">
         <link rel="stylesheet" href="../theme.css">
         <link rel="stylesheet" href="style.css">
@@ -38,7 +38,7 @@
 
                             if ($desc && $image && $js) {
 
-                                println("                    <li class='card bg-dark mb-3' href='#' onclick='this.lastElementChild.submit(); return false'>");
+                                println("                    <li class='card bg-dark mb-3' onclick='this.lastElementChild.submit(); return false'>");
                                 println("                        <img class='card-img-top' src='" . $row . "/" . $dirContent[$image] . "'>");
                                 println("                        <div class='card-body'>");
                                 println("                            <h5 class='card-title'>$row</h5>");
