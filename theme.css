@@ -8,20 +8,65 @@
 body {
 
     color: white;
-    background-color: #37383a;
+    background-color: #2A2723;
+
+}
+
+hr {
+
+    background-color: #524F4B;
+
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    color: white;
+
+}
+
+.bg-dark {
+
+    background-color: #25221E!important;
+
+}
+
+.dropdown-menu {
+
+    background-color: #2A2723!important;
+    color: white!important;
+
+}
+
+.dropdown-item {
+
+    background-color: #2A2723!important;
+    color: white!important;
+
+}
+
+.dropdown-item:hover {
+
+    background-color: #25221E!important;
 
 }
 
 ::selection {
 
-    color: black;
+    color: #2A2723;
     background-color: white;
 
 }
 
 ::-moz-selection {
 
-    color: #1d1e1f;
+    color: #2A2723;
     background-color: white;
 
 }

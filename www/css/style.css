@@ -1,56 +1,17 @@
-/*html {
+header {
 
-    font-weight: bold;
-    font-family: sans-serif;
-
-}*/
-
-header *.card {
-
-    border-top: none;
+    background-color: #D62A2A;
 
 }
 
-header *.card:first-child {
+footer a {
 
-    border-left: none;
-
-}
-
-header *.card:last-child {
-
-    border-right: none;
+    text-decoration: underline;
 
 }
 
-header *.card {
+footer a:hover {
 
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-
-}
-
-header *.card:first-child {
-
-    border-bottom-left-radius: 0;
-
-}
-
-header *.card:last-child {
-
-    border-bottom-right-radius: 0;
-
-}
-
-a {
-
-    color: white;
     text-decoration: none;
-
-}
-
-#active {
-
-    background-color: #2e3031;
 
 }
