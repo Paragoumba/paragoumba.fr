@@ -12,6 +12,24 @@ body {
 
 }
 
+header {
+
+    background-color: #D62A2A;
+
+}
+
+footer a {
+
+    text-decoration: underline;
+
+}
+
+footer a:hover {
+
+    text-decoration: none;
+
+}
+
 hr {
 
     background-color: #524F4B;
@@ -28,6 +46,12 @@ a {
 a:hover {
 
     color: white;
+
+}
+
+.btn.focus, .btn:focus {
+
+    box-shadow: none;
 
 }
 

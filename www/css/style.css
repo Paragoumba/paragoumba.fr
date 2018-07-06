@@ -1,17 +1,5 @@
-header {
+.badge-danger {
 
-    background-color: #D62A2A;
-
-}
-
-footer a {
-
-    text-decoration: underline;
-
-}
-
-footer a:hover {
-
-    text-decoration: none;
+    background-color: #D62A2A!important;
 
 }
