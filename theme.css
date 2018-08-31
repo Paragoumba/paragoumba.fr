@@ -55,6 +55,12 @@ a:hover {
 
 }
 
+.badge-danger {
+
+    background-color: #D62A2A!important;
+
+}
+
 .bg-dark {
 
     background-color: #25221E!important;

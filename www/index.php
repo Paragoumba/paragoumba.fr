@@ -14,7 +14,6 @@ $translations = array(
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
         <link rel="stylesheet" href="../bootstrap.min.css">
         <link rel="stylesheet" href="../theme.css">
-        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div class="container-fluid">
@@ -165,6 +164,6 @@ $translations = array(
             </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="../bootstrap.bundle.min.js"></script>
     </body>
 </html>
