@@ -49,6 +49,18 @@ a:hover {
 
 }
 
+.mt-15 {
+
+    margin-top: 15rem;
+
+}
+
+.mb-15 {
+
+    margin-bottom: 15rem;
+
+}
+
 .btn.focus, .btn:focus {
 
     box-shadow: none;
